@@ -1,12 +1,18 @@
-<h1 align="center">💻Hi FPS</h1>
+<h1 align="center">🕹Hi FPS</h1>
 
 ###
 
-<h2 align="left">Я розробник ігор.<br>Я з України.</h2>
+<h2 align="left">🕶I see that you have stumbled upon my project.</h2>
 
 ###
 
-<p align="left">🎯 I have a goal to create my own game.<br>✏ In addition to programming, I am engaged in music and drawing.</p>
+<p align="left">🎯 This is my video game called RSMv, but it's not finished yet.
+I plan to make a 2D sandbox game with a plot.</p>
+
+###
+
+<p align="left">💻 Follow the project here or on my social networks.</p>
+
 
 ###
 
