@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RSMv")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+356fb8461bbde1d9e1a86de62aeccaa777883b77")]
 [assembly: System.Reflection.AssemblyProductAttribute("RSMv")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RSMv")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

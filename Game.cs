@@ -8,6 +8,7 @@ namespace RSMv
 {
     public class Game : GameWindow
     {
+        GameObjects quad;
         public Game()
             : base(GameWindowSettings.Default, new NativeWindowSettings 
             {
@@ -25,6 +26,9 @@ namespace RSMv
             base.OnLoad();
             
             GL.ClearColor(0.5f, 0.6f, 1.0f, 1.0f);
+
+            quad = new GameObjects(0.5f, -0.25f, 0.0f, 0.2f);
+            quad.Load();
             
             GL.Enable(EnableCap.DepthTest);
         }
@@ -59,6 +63,8 @@ namespace RSMv
             base.OnRenderFrame(args);
 
             GL.Clear(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit);
+
+            quad.Render();
 
             SwapBuffers();
         }
